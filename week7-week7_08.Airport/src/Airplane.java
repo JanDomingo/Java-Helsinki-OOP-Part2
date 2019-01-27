@@ -24,4 +24,14 @@ public class Airplane {
     public void add(String id, String capacity) {
         airplane.put(id, capacity);
     }
+    
+    public String getId() {
+        return this.id;
+    }
+    
+    public String toString() {
+        return this.id + " (" + this.capacity + " ppl)";
+    }
+    
+    
 }
