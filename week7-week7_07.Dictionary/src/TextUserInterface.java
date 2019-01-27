@@ -80,5 +80,4 @@ public class TextUserInterface {
         string = string.toLowerCase();
         return string.trim();
     }       
-          
 }
