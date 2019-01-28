@@ -6,23 +6,20 @@ import java.util.ArrayList;
  * and open the template in the editor.
  */
 
-/**
- *
- * @author W
- */
 public class Flight {
-    private Plane plane;
-    private String departureCode;
-    private String destinationCode;
-
-    public Flight(Plane plane, String departureCode, String destinationCode) {
+    
+    private final Plane plane;
+    private final String originAirport;
+    private final String destinationAirport; 
+    
+    public Flight (Plane plane, String originAirport, String destinationAirport){
         this.plane = plane;
-        this.departureCode = departureCode;
-        this.destinationCode = destinationCode;
+        this.originAirport = originAirport;
+        this.destinationAirport = destinationAirport;
     }
-
+    
     @Override
-    public String toString() {
-        return this.plane + " (" + this.departureCode + "-" + this.destinationCode +")";
-    }
+  public String toString(){
+      return this.plane + " (" + this.originAirport + "-" + this.destinationAirport + ")";
+  }  
 }

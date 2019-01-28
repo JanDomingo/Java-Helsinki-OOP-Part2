@@ -8,23 +8,37 @@ import java.util.ArrayList;
 
 /**
  *
- * @author W
+ */
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Scanner;
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
  */
 public class Plane {
-    private String planeId;
-    private int planeCapacity;
 
-    public Plane(String id, int capacity) {
-        this.planeId = id;
-        this.planeCapacity = capacity;
+    private final String name;
+    private final int capacity;
+    //private Scanner reader;
+
+    public Plane(String name, int capacity) {
+        this.name = name;
+        this.capacity = capacity;
     }
 
-    public String getId() {
-        return this.planeId;
+    public String getName() {
+        return this.name;
+    }
+
+    public int getCapacity() {
+        return this.capacity;
     }
 
     @Override
     public String toString() {
-        return this.planeId + " (" + this.planeCapacity + " ppl)";
-    }   
+        return this.name + " (" + this.capacity + " ppl)";
+    }
 }
