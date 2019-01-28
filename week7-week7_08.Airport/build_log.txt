@@ -64,7 +64,7 @@ deps-jar:
 -compile-depend:
 
 -do-compile:
-    [javac] Compiling 1 source file to /Users/jandomingo/NetBeansProjects/mooc-2013-OOProgrammingWithJava-PART2/week7-week7_08.Airport/build/classes
+    [javac] Compiling 4 source files to /Users/jandomingo/NetBeansProjects/mooc-2013-OOProgrammingWithJava-PART2/week7-week7_08.Airport/build/classes
     [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
     [javac] 1 warning
 
