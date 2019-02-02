@@ -37,7 +37,8 @@ public class RegistrationPlate {
 
     return true;
     }
-
+    
+    //Look into this line 
     public int hashCode() {
         if (this.regCode == null) {
             return 7;
