@@ -20,7 +20,7 @@ public class Purchase {
     }
     
     public int price() {
-        return this.unitPrice;
+        return amount * unitPrice;
     }
     
     public void increaseAmount() {
